@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box1{
+    background-color:darkblue;
+    height: 300px;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 50px;
+    padding-left: 10px;
+    padding-right: 10px; 
+}
+
+.box2{
+    background-color:cornflowerblue;
+    height: 300px;
+}
+
+#box11{
+    background-image: url(img01.png);
+    background-repeat: no-repeat;
+    background-size: 155px;
+    height: 350px;
+    width: 350px;
+    margin-left: 800px;
+    margin-top: -350px;
+}
+
+#box12{
+    background-image: url(img02.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    height: 350px;
+    margin-left: 300px;
+}
+
+
