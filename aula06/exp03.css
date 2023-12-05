@@ -1,0 +1,61 @@
+.box{
+    background-color: rgb( 50, 150, 255);
+    font-size: 30px;
+    height: 600px;
+    width: 900px;
+    padding: 10px;
+    display: grid;
+    text-align: center;
+    grid-template-areas: "one one two"
+                        "tree for five"
+                        "six seven seven";
+    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: 300px 1fr 300px;
+    gap: 10px;
+}
+
+.um{
+    background-color:lightblue;
+    grid-area: one;
+    padding: 80px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.dois{
+    background-color:lightblue;
+    grid-area: two;
+    padding: 80px;
+}
+
+.tres{
+    background-color:lightblue;
+    grid-area: tree;
+    padding: 80px;
+}
+
+.quatro{
+    background-color:lightblue;
+    grid-area: for;
+    padding: 80px;
+}
+
+.cinco{
+    background-color:lightblue;
+    grid-area: five;
+    padding: 80px;
+}
+
+.seis{
+    background-color:lightblue;
+    grid-area: six;
+    padding: 80px;
+}
+
+.sete{
+    background-color:lightblue;
+    grid-area: seven;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    padding: 80px;
+}

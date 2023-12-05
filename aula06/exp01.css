@@ -1,0 +1,45 @@
+.box{
+    background-color:rgb( 50, 150, 255);
+    font-size: 30px;
+    height: 600px;
+    width: 1000px;
+    display: grid;
+    padding: 10px;
+    text-align: center;
+    grid-template-areas: "topo topo topo"
+                        "mR centro mL"
+                        "mR baixo baixo";
+    grid-template-rows: 200px 1fr 200px;
+    grid-template-columns: 200px 1fr 250px;
+    gap: 10px;
+}
+
+.b1{
+    background-color:lightblue;
+    grid-area: topo;
+    padding: 80px;
+}
+
+.b2{
+    background-color:lightblue;
+    grid-area: mR;
+    padding: 80px;
+}
+
+.b3{
+    background-color:lightblue;
+    grid-area: centro;
+    padding: 80px;
+}
+
+.b4{
+    background-color:lightblue;
+    grid-area: mL;
+    padding: 80px;
+}
+
+.b5{
+    background-color:lightblue;
+    grid-area: baixo;
+    padding: 80px;
+}

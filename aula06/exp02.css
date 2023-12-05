@@ -1,0 +1,77 @@
+.box{
+    background-color: rgb( 50, 150, 255);
+    font-size: 30px;
+    height: 600px;
+    width: 900px;
+    padding: 10px;
+    display: grid;
+    text-align: center;
+    grid-template-areas: "one two tree"
+                        "for five six"
+                        "seven eight nine";
+    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: 300px 1fr 300px;
+}
+
+.um{
+    background-color:lightblue;
+    grid-area: one;
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    padding: 80px;
+}
+
+.dois{
+    background-color:lightblue;
+    grid-area: two;
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    padding: 80px;
+}
+
+.tres{
+    background-color:lightblue;
+    grid-area: tree;
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    padding: 80px;
+}
+
+.quatro{
+    background-color:lightblue;
+    grid-area: for;
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    padding: 80px;
+}
+
+.cinco{
+    background-color:lightblue;
+    grid-area: five;
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    padding: 80px;
+}
+
+.seis{
+    background-color:lightblue;
+    grid-area: six;
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    padding: 80px;
+}
+
+.sete{
+    background-color:lightblue;
+    grid-area: seven;
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    padding: 80px;
+}
+
+.oito{
+    background-color:lightblue;
+    grid-area: eight;
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    padding: 80px;
+}
+
+.nove{
+    background-color:lightblue;
+    grid-area: nine;
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    padding: 80px;
+}
