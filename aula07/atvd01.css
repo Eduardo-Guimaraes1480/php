@@ -1,0 +1,33 @@
+.box{
+    background-color: rgb( 50, 150, 255);
+    font-size: 30px;
+    height: 500px;
+    width: 1050px;
+    padding: 10px;
+    display: grid;
+    text-align: center;
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    gap: 10px;
+}
+
+.v1{
+    grid-area: auto;
+    padding: 10px;
+}
+
+.stl{
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    background-color:lightblue;
+}
+
+.vx{
+    background-color: white;
+    grid-column-start: 2;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+
+

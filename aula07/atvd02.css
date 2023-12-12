@@ -1,0 +1,49 @@
+.box{
+    background-color: rgb(119, 119, 119);
+    height: 600px;
+    width: 1200px;
+    display: grid;
+    grid-template-areas: "topo topo topo"
+                        "ce cp cd"
+                        "ro ro ro";
+    grid-template-columns: 150px 1fr 150px;
+    grid-template-rows: 150px 1fr 150px;
+}
+
+.topo{
+    background-color: rgb(0, 0, 87);
+    color: white;
+    grid-area: topo;
+    text-align: center;
+}
+
+.cE{
+    background-color: rgb(89, 89, 179);
+    color: white;
+    grid-area: ce;
+    text-align: center;
+}
+
+.cP{
+    background-color: rgb(0, 0, 221);
+    color: white;
+    grid-area: cp;
+    text-align: center;
+}
+
+.cD{
+    background-color: rgb(89, 89, 179);
+    color: white;
+    grid-area: cd;
+    text-align: center;
+}
+
+.rod{
+    background-color: rgb(0, 0, 87);
+    color: white;
+    grid-area: ro;
+    text-align: center;
+}
+
+
+
