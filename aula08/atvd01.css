@@ -1,0 +1,83 @@
+.box{
+    background-color:aquamarine;
+    height: 500px;
+    width: 1000px;
+    display: grid;
+    text-align: center;
+    grid-template-areas: "topo topo"
+                        "cont lD"
+                        "rod rod";
+    grid-template-columns: 1fr 200px;
+    grid-template-rows: 200px 500px 200px;
+}
+
+.topo{
+    background-color: red;
+    color: white;
+    grid-area: topo;
+    text-align: center;
+}
+
+.conteudo{
+    background-color: yellow;
+    grid-area: cont;
+    text-align: center;
+    grid-template-areas: "c1"
+                        "c2"
+                        "c3";
+    flex-direction: column;
+}
+
+.c1, .c2, .c3{
+    background-color: gray;
+    width: 100%;
+    height: 33,33%;
+    height: 167px;
+}
+
+.conteudo .c1{
+    background-color: brown;
+    grid-area: c1;
+}
+
+.conteudo .c2{
+    background-color: chocolate;
+    grid-area: c2;
+}
+
+.conteudo .c3{
+    background-color: coral;
+    grid-area: c3;
+}
+
+.ladoD{
+    background-color: rgb(36, 95, 255);
+    color: white;
+    grid-area: lD;
+    text-align: center;
+}
+
+.rodape{
+    background-color:blue;
+    color: white;
+    grid-area: rod;
+    text-align: center;
+    display: flex;
+    height: 200px;
+}
+
+.p1, .p2, .p3{
+    background-color: gray;
+    height: 100%;
+    width: 100%;
+}
+.rodape .p1{
+    background-color: green;
+}
+.rodape .p2{
+    background-color: greenyellow;
+    color: black;
+}
+.rodape .p3{
+    background-color: rgb(0, 46, 0);
+}
